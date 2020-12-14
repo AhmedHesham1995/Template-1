@@ -1,0 +1,50 @@
+* { box-sizing: border-box; margin: 0; padding: 0}
+
+:root { --maincolor: #a91ad4; --greycolor: #999; --bg-grey: #f9f9f9; --whitecolor: #fff}
+/*--maincolor: #5e95fe; --greycolor: #999; --bg-grey: #f9f9f9; --whitecolor: #fff*/
+
+.container { width: 80%; margin: auto}
+
+.clearfix { clear: both}
+
+.btn { padding: 15px 30px; margin-right: 5px; border: 0; border-radius: 3px; text-transform: capitalize; font-family: inherit; cursor: pointer}
+
+.hover-opacity:hover { opacity: .8; transition: opacity .3s ease-in-out}
+
+
+
+.ltr-effect,.ttb-effect { position: relative}
+
+.ltr-effect:after, .ttb-effect:after { position: absolute; content: " "; background-color: #333233; top: 0; left: 0; right: 0; bottom: 0; z-index: -10}
+
+.ltr-effect:after { height: 100%; width: 0px; transition: width 0.5s }
+
+.ttb-effect:after { height: 0; width: 100%; transition: height 0.5s }
+
+.ltr-effect:hover:after { width: 100%}
+
+.ttb-effect:hover:after { height: 100%}
+
+
+
+
+a { text-decoration: none}
+
+ul { list-style: none}
+
+h1,h2,h3,h4,h5 { font-family: 'Varela Round', sans-serif}
+
+.pd-y { padding: 120px 0}
+
+.fa-2x { color: var(--maincolor)}
+
+.section-header { text-align: center}
+
+.section-header .section-title { font-size: 35px; text-transform: capitalize; margin-bottom: 10px}
+
+.line { display: block; width: 50px; height: 3px; background-color: var(--maincolor); margin: 0 auto 70px auto}
+
+
+
+
+body { font-family: 'Varela Round', sans-serif}

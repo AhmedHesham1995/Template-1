@@ -1,0 +1,28 @@
+/*service*/
+
+.service {   }
+
+.service-item { width: 50%}
+
+.service-item .section-header { text-align: left}
+
+.service-item .section-header .line { margin: 0 0 40px 0}
+
+.service-item-desc { padding-right: 20px; color: var(--greycolor); line-height: 1.5; font-size: 16px; margin-bottom: 20px}
+
+.service-list { list-style: none}
+
+.service-list li { margin-bottom: 10px; color: var(--greycolor)}
+
+.service-list li i { color: var(--maincolor); border: 1px solid var(--maincolor); border-radius: 50%; width: 30px; height: 30px; padding: 7px; margin-right: 5px}
+
+.service-item-img img { width: 100%}
+
+.service-bullets { list-style: none; text-align: center }
+
+.service-bullets li { display: inline-block; width: 10px; height: 10px; background-color: #e8e8e8; border-radius: 50%; margin: 10px 5px}
+
+.service-bullets li.active, .service-bullets li:hover { background-color: var(--maincolor); cursor: pointer}
+
+
+

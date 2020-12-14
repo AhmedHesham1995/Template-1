@@ -1,0 +1,39 @@
+/*header*/
+
+
+.header { position: fixed; width: 100%; z-index: 1; background-color: rgba(0,0,0,0.4)}
+
+.header .header-content { overflow:}
+
+.header .logo { width: 35%; }
+
+.header .logo img { width: 20%; margin-top: 15px}
+
+
+
+.header .nav { width: 65%; list-style: none; text-align: right; margin-top: 20px}
+
+.header .nav > li { display: inline-block; text-transform: capitalize; width: ; text-align: center}
+
+.header .nav > li > a { text-decoration: none; padding: 10px 15px; color: var(--whitecolor); display: block; font-size: 15px}
+
+
+.header .nav > li > a:after, .header .nav li a.active:after { content: "";display: block; background-color: var(--maincolor); height: 2px; margin-top: 3px; transition: width 0.5s}
+
+.header .nav > li > a:after { width: 0}
+
+.header .nav > li > a.active:after { width: 100%}
+
+.header .nav > li > a:hover:after { width: 100%}
+
+
+
+
+.dropdown { position: relative}
+
+.dropdown-menu { position: absolute; background-color:  var(--maincolor); width: 150px; text-align: center; left: -50%; top: 40px; opacity: 0; visibility: hidden; transition: 2s opacity}
+
+.dropdown:hover .dropdown-menu { opacity: 1; visibility: visible}
+
+.dropdown-menu a { color: white; display: block; padding: 10px}
+

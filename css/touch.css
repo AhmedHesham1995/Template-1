@@ -1,0 +1,39 @@
+/*touch*/
+
+.touch { }
+
+.touch-content { overflow: hidden}
+
+.touch-item { width: 30%; text-align: center}
+
+.touch-header { margin: 20px 0; text-transform: capitalize; font-weight: bold}
+
+.touch-info { color: var(--greycolor); font-size: 15px}
+
+.touch-item i { color: var(--maincolor)}
+
+.touch-item.mg { margin: 0 5%}
+
+
+/*form*/
+
+.form { margin-top: 50px; margin-bottom: 30px}
+
+.form1 { text-align: center;}
+
+.form1 .info ,.form2 .desc { margin: 5px; text-transform: capitalize; padding: 7px; border: 0; background-color: var(--bg-grey); color: var(--greycolor)}
+
+::placeholder { color: var(--greycolor)}
+
+.form1 .info { width: 330px}
+
+.form2 { text-align: center}
+
+.form2 .desc { width: 675px}
+
+.form2 .desc2 { height: 70px}
+
+.form input[type="text"]:focus,.form textarea:focus { outline: none; border: 1px solid var(--maincolor); border-bottom: 3px solid var(--maincolor)}
+
+.form input[type="submit"] { background-color: var(--maincolor); color: var(--whitecolor); padding: 15px 30px; border: 0; margin-top: 10px; font-size: 15px}
+
